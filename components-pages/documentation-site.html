@@ -7,18 +7,19 @@
     <title>Documentations</title>
     <link rel="stylesheet" href="../styles.css" />
     <link rel="stylesheet" href="../components-styles/card.css" />
+    <link rel="stylesheet" href="../components-styles/chip.css" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
   </head>
   <body>
     <main>
       <!-- Card Demo -->
-      <div class="container card-container">
-        <div class="container-title">Card Componenets</div>
-        <div class="demo card-demos">
+      <div class="container card-container col-flex">
+        <h1 class="container-title h3">Card Componenets</h1>
+        <div class="demo card-demos row-flex">
           <!-- Horizontal card -->
-          <div class="card hz">
-            <div class="card-header flex">
+          <div class="card sm-card">
+            <div class="card-header row-flex">
               <img
                 class="card-img"
                 src="https://images.pexels.com/photos/1606655/pexels-photo-1606655.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800"
@@ -29,7 +30,7 @@
                 <sub>GONNA MAKE YOU SMILE :)</sub>
               </div>
             </div>
-            <div class="card-actions flex">
+            <div class="card-actions row-flex">
               <div class="card-btns">
                 <button class="card-btn card-btn-text">READ</button>
                 <button class="card-btn card-btn-text">BOOKMARK</button>
@@ -42,7 +43,7 @@
             </div>
           </div>
           <!-- Vertical card -->
-          <div class="card vrt">
+          <div class="card lg-card">
             <img
               class="card-img"
               src="https://images.pexels.com/photos/1606655/pexels-photo-1606655.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800"
@@ -52,7 +53,7 @@
               <h1 class="card-title h3">Minion Boi</h1>
               <sub>GONNA MAKE YOU SMILE :)</sub>
             </div>
-            <div class="card-actions flex">
+            <div class="card-actions row-flex">
               <div class="card-btns">
                 <button class="card-btn card-btn-text">READ</button>
                 <button class="card-btn card-btn-text">BOOKMARK</button>
@@ -68,11 +69,14 @@
       </div>
 
       <!-- Chips Demo -->
-      <div class="container chips-container">
-        <div class="container-title">Chips Componenets</div>
-        <div class="demo chips-demos">
+      <div class="container chips-container col-flex">
+        <h1 class="container-title h3">Chips Componenets</h1>
+        <div class="demo chips-demos row-flex">
           <!-- Horizontal chips -->
-         
+          <div class="chip input-chip col-flex">
+            <label for="chip-input" class="chip-title h3">Chip Title</label>
+            <input type="text" id="chip-input" placeholder="type something" />
+          </div>
         </div>
       </div>
     </main>
