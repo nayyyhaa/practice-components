@@ -1,5 +1,5 @@
 .chip-wrapper {
-  background: rgba(255, 255, 255, 0.507);
+  background: var(--white-light-grey);
   width: 50rem;
   padding: 1rem;
   border-radius: 0.5rem;
@@ -16,7 +16,7 @@
 }
 
 .chip {
-  background: rgb(202, 202, 202);
+  background: var(--md-grey);
   padding: 0.25rem;
   margin: 0.2rem;
   border-radius: 0.5rem;

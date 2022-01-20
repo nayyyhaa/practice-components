@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../styles.css" />
     <link rel="stylesheet" href="../components-styles/card.css" />
     <link rel="stylesheet" href="../components-styles/chip.css" />
+    <link rel="stylesheet" href="../components-styles/drawer.css" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
     <script src="../scripts/app.js" defer></script>
@@ -70,13 +71,33 @@
       </div>
 
       <!-- Chips Demo -->
-      <div class="container chips-container col-flex">
+      <div class="container col-flex">
         <h1 class="container-title h3">Chips Componenets</h1>
         <div class="demo chips-demos row-flex">
           <!-- Horizontal chips -->
           <div class="chip-wrapper input-chip-wrapper row-flex">
             <label for="chip-input" class="chip-title">Chip Title</label>
             <input type="text" id="chip-input" placeholder="type something" />
+          </div>
+        </div>
+      </div>
+
+      <!-- Drawer Demo -->
+      <div class="container col-flex">
+        <h1 class="container-title h3">Drawer Componenets</h1>
+        <div class="demo drawer-demos row-flex">
+          <!-- Column drawer -->
+          <div class="drawer-wrapper col-flex">
+            <div class="drawer-header">
+              <h1 class="drawer-title h3">Minion Boi</h1>
+              <sub>gonna make you mile :)</sub>
+            </div>
+            <ul class="drawer-content">
+              <li class="active"><i class="fa fa-inbox"></i><span>Inbox</span></li>
+              <li><i class="fa fa-star"></i><span>Star</span></li>
+              <li><i class="fas fa-paper-plane"></i><span>Send Mail</span></li>
+              <li><i class="fas fa-envelope-open"></i><span>Drafts</span></li>
+            </ul>
           </div>
         </div>
       </div>

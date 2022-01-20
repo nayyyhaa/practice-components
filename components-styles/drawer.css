@@ -1,0 +1,36 @@
+.drawer-wrapper {
+  background: white;
+  width: 15rem;
+  align-items: flex-start;
+  padding: 0.75rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.drawer-header {
+    padding: 0.75rem 0;
+}
+
+.drawer-content {
+    width: 100%;
+}
+
+.drawer-content li {
+  padding: 0.75rem 0.25rem;
+  margin: 0.25rem 0;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.drawer-content li:hover {
+  background-color: var(--primary-color-light);
+}
+
+.drawer-content li span {
+  padding-left: 0.5rem;
+}
+
+.active {
+    color: var(--primary-color-dark);
+    background-color: var(--light-grey);
+}

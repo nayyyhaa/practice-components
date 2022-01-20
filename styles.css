@@ -1,8 +1,12 @@
 :root {
-  --primary-color: #b8b3ff;
+  --primary-color: #cecbfd;
   --primary-color-dark: rgb(66, 4, 209);;
-  --primary-color-light: #edebff;
+  --primary-color-light: #f1f0ff;
+  --md-grey: rgb(202, 202, 202);
+  --light-grey: rgba(223, 222, 222, 0.616);
+  --white-light-grey: rgba(255, 255, 255, 0.788);
 }
+
 * {
   padding: 0;
   margin: 0;
@@ -23,6 +27,10 @@ sub {
 svg {
   font-size: 1rem !important;
   cursor: pointer;
+}
+
+ul {
+  list-style: none;
 }
 
 .col-flex {
@@ -47,6 +55,7 @@ svg {
   background: var(--primary-color);
   border-radius: 2rem;
   margin: 5rem;
+  padding: 2rem 0.25rem;
 }
 
 .container-title {
