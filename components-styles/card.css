@@ -47,7 +47,7 @@
 
 .card-btn {
   background: white;
-  color: rgb(117, 4, 209);
+  color: var(--primary-color-dark);
   font-weight: 700;
   border: none;
   border-radius: 0.5rem;
@@ -70,6 +70,6 @@
 
 @media screen and (max-width: 625px) {
   .card {
-    margin: 0.25rem;
+    margin: 1.5rem 0.5rem;
   }
 }

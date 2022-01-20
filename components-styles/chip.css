@@ -1,11 +1,35 @@
-.chip {
-    background: white;
-    width: 300px;
-    height: 100px;
+.chip-wrapper {
+  background: rgba(255, 255, 255, 0.507);
+  width: 50rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  justify-content: initial;
 }
 
 #chip-input {
-    border: none;
-    outline: none;
-    border-bottom: 2px solid black;
+  width: 100%;
+  order: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  border-bottom: 2px solid black;
+}
+
+.chip {
+  background: rgb(202, 202, 202);
+  padding: 0.25rem;
+  margin: 0.2rem;
+  border-radius: 0.5rem;
+}
+
+.chip-title {
+  width: 100%;
+}
+
+.chip-text svg path {
+  opacity: 0.7;
+}
+
+.chip-text svg:hover path {
+  opacity: 1;
 }
