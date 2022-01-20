@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../components-styles/chip.css" />
     <link rel="stylesheet" href="../components-styles/drawer.css" />
     <link rel="stylesheet" href="../components-styles/header.css" />
+    <link rel="stylesheet" href="../components-styles/badge.css" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
     <script src="../scripts/app.js" defer></script>
@@ -73,7 +74,7 @@
 
       <!-- Chips Demo -->
       <div class="container col-flex">
-        <h1 class="container-title h3">Chips Componenets</h1>
+        <h1 class="container-title h3">Chips Components</h1>
         <div class="demo chips-demos row-flex">
           <!-- Horizontal chips -->
           <div class="chip-wrapper input-chip-wrapper row-flex">
@@ -114,10 +115,10 @@
               <nav class="header-nav row-flex">
                 <div class="header-title h3"><i class="fas fa-bars"></i><span>Minion Boi</span></div>
                 <ul class="header-menu row-flex">
-                  <li class="active"><i class="fa fa-inbox"></i></li>
-                  <li><i class="fa fa-star"></i></li>
-                  <li><i class="fas fa-paper-plane"></i></li>
-                  <li><i class="fas fa-envelope-open"></i></li>
+                  <li class="active grid-ctr-1"><i class="fa fa-inbox"></i></li>
+                  <li class="grid-ctr-1"><i class="fa fa-star"></i></li>
+                  <li class="grid-ctr-1"><i class="fas fa-paper-plane"></i></li>
+                  <li class="grid-ctr-1"><i class="fas fa-envelope-open"></i></li>
                 </ul>
               </nav>
               <div class="text-content">
@@ -152,10 +153,10 @@
               <nav class="header-nav sticky-header row-flex">
                 <div class="header-title h3"><i class="fas fa-bars"></i><span>Minion Boi</span></div>
                 <ul class="header-menu row-flex">
-                  <li class="active"><i class="fa fa-inbox"></i></li>
-                  <li><i class="fa fa-star"></i></li>
-                  <li><i class="fas fa-paper-plane"></i></li>
-                  <li><i class="fas fa-envelope-open"></i></li>
+                  <li class="active grid-ctr-1"><i class="fa fa-inbox"></i></li>
+                  <li class="grid-ctr-1"><i class="fa fa-star"></i></li>
+                  <li class="grid-ctr-1"><i class="fas fa-paper-plane"></i></li>
+                  <li class="grid-ctr-1"><i class="fas fa-envelope-open"></i></li>
                 </ul>
               </nav>
               <div class="text-content">
@@ -182,6 +183,33 @@
               </div>
             </div>
           </div>
+        </div>
+      </div>
+
+      <!-- Badge Demo -->
+      <div class="container col-flex">
+        <h1 class="container-title h3">Badge Components</h1>
+        <div class="demo badge-demos grid-resp-col">
+          <p>
+            <span class="badge-wrapper">Text with a badge<span class="badge grid-ctr-1">9</span></span>
+          </p>
+          <p>
+            <span class="badge-wrapper">Text with large badge<span class="badge lg-txt-badge grid-ctr-1">9</span></span>
+          </p>
+          <p>
+            Button with a badge on the left
+            <button class="badge-wrapper btn-badge">
+              Action
+              <span class="badge lft-badge grid-ctr-1">9</span>
+            </button>
+          </p>
+          <p>
+            Icon with a badge
+            <button class="badge-wrapper icon-badge">
+              <i class="fas fa-envelope-open"></i>
+              <span class="badge grid-ctr-1">9</span>
+            </button>
+          </p>
         </div>
       </div>
     </main>

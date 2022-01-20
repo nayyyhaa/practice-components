@@ -1,0 +1,48 @@
+.badge-wrapper {
+  position: relative;
+  line-height: 1rem;
+}
+
+.badge {
+  background: var(--crimson-red);
+  color: white;
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 45%;
+  left: 95%;
+}
+
+.lg-txt-badge {
+  height: 2rem;
+  width: 2rem;
+  background: var(--blue);
+}
+
+.badge-demos p {
+  width: 90%;
+  margin: 0.25rem;
+  align-self: center;
+  justify-self: center;
+  word-break: break-all;
+}
+
+.btn-badge {
+  background: var(--primary-color-dark);
+  color: white;
+  padding: 0.25rem 0.5rem;
+  border: 2rem;
+}
+
+.btn-badge .badge {
+  bottom: 75%;
+}
+
+.icon-badge {
+  background: initial;
+}
+
+span.lft-badge {
+  left: -20%;
+}

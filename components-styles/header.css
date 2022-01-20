@@ -21,8 +21,6 @@
 }
 
 .header-nav li {
-  display: grid;
-  place-items: center;
   width: 2rem;
   height: 2rem;
   border-radius: 50%;
@@ -55,7 +53,7 @@
   }
 
   .header-nav {
-      justify-content: center;
+    justify-content: center;
   }
 }
 

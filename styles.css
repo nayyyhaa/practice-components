@@ -1,11 +1,13 @@
 :root {
   --primary-color: #cecbfd;
-  --primary-color-dark: rgb(66, 4, 209);
+  --primary-color-dark: rgb(76 63 181);
   --primary-color-light: #f1f0ff;
   --primary-color-transparent: rgba(205, 183, 255, 0.315);
   --md-grey: rgb(202, 202, 202);
   --light-grey: rgba(223, 222, 222, 0.616);
   --white-light-grey: rgba(255, 255, 255, 0.788);
+  --crimson-red: rgb(255, 77, 77);
+  --blue: #495ed1;
 }
 
 * {
@@ -18,6 +20,7 @@ body {
   background: var(--primary-color-light);
   font-family: poppins;
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 sub {
@@ -43,6 +46,11 @@ span {
   font-size: 1rem;
 }
 
+button {
+  cursor: pointer;
+  border: none;
+}
+
 .col-flex {
   display: flex;
   flex-direction: column;
@@ -58,12 +66,22 @@ span {
   flex-wrap: wrap;
 }
 
+.grid-ctr-1 {
+  display: grid;
+  place-items: center;
+}
+
+.grid-resp-col {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+}
+
 .container {
   min-height: 40vh;
   display: flex;
   flex-wrap: wrap;
   background: var(--primary-color);
-  border-radius: 2rem;
+  border-radius: 0 2rem;
   margin: 5rem;
   padding: 2rem 0.25rem;
 }
@@ -89,5 +107,9 @@ span {
 @media screen and (max-width: 625px) {
   .container {
     margin: 0.25rem;
+  }
+
+  .grid-resp-col {
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
   }
 }
