@@ -132,7 +132,7 @@ button {
 
 @media screen and (max-width: 625px) {
   .container {
-    margin: 0.25rem;
+    margin: 1rem 0.25rem;
   }
 
   .grid-resp-col {
