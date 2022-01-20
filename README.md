@@ -1,1 +1,2 @@
-# Celestify Component Library
+# inNotion Component Library
+
