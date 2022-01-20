@@ -28,18 +28,27 @@ chipInput.addEventListener("keyup", (e) => {
 
 addNewChip("chip 1");
 
-// DRAWER COMPONENT
+// DRAWER COMPONENT & HEADER COMPONENT
 const drawerElements = document.querySelectorAll(".drawer-content li");
+const headerElements = document.querySelectorAll(".header-menu li");
 
 //functions
-function deactivateElement() {
-  drawerElements.forEach((element) => element.classList.remove("active"));
+function deactivateElement(hoverableElements) {
+  hoverableElements.forEach((element) => element.classList.remove("active"));
+}
+
+function toggleElement(hoverElement, hoverableElements) {
+  hoverElement.addEventListener("click", () => {
+    deactivateElement(hoverableElements);
+    hoverElement.classList.toggle("active");
+  });
 }
 
 // Event Listener
 drawerElements.forEach((element) => {
-  element.addEventListener("click", () => {
-    deactivateElement();
-    element.classList.toggle("active");
-  });
+  toggleElement(element, drawerElements);
+});
+
+headerElements.forEach((element) => {
+  toggleElement(element, headerElements);
 });

@@ -1,7 +1,8 @@
 :root {
   --primary-color: #cecbfd;
-  --primary-color-dark: rgb(66, 4, 209);;
+  --primary-color-dark: rgb(66, 4, 209);
   --primary-color-light: #f1f0ff;
+  --primary-color-transparent: rgba(205, 183, 255, 0.315);
   --md-grey: rgb(202, 202, 202);
   --light-grey: rgba(223, 222, 222, 0.616);
   --white-light-grey: rgba(255, 255, 255, 0.788);
@@ -31,6 +32,15 @@ svg {
 
 ul {
   list-style: none;
+}
+
+p {
+  font-size: 1rem;
+  letter-spacing: 0.0125em;
+}
+
+span {
+  font-size: 1rem;
 }
 
 .col-flex {
