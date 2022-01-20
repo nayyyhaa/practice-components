@@ -1,11 +1,14 @@
 :root {
   --primary-color: #cecbfd;
   --primary-color-dark: rgb(76 63 181);
+  --sat-primary-color: #bb86fc;
   --primary-color-light: #f1f0ff;
   --primary-color-transparent: rgba(205, 183, 255, 0.315);
   --md-grey: rgb(202, 202, 202);
   --light-grey: rgba(223, 222, 222, 0.616);
   --white-light-grey: rgba(255, 255, 255, 0.788);
+  --dark-grey: rgb(90, 90, 90);
+  --xdark-grey: #333;
   --crimson-red: rgb(255, 77, 77);
   --blue: #495ed1;
 }
@@ -76,6 +79,10 @@ button {
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
 }
 
+.box-shd {
+  box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 14%), 0 1px 18px 0 rgb(0 0 0 / 12%);
+}
+
 .container {
   min-height: 40vh;
   display: flex;
@@ -91,15 +98,34 @@ button {
   min-height: 8vh;
 }
 
+.demo {
+  width: 100%;
+}
+
+/* texts */
+
 .h3 {
   font-size: 1.25rem;
   font-weight: 500;
   letter-spacing: 0.0125em;
 }
 
-.demo {
-  width: 100%;
-  min-height: 40vh;
+.h5 {
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.0125em;
+}
+
+.colored-txt {
+  color: var(--sat-primary-color);
+}
+
+.wt-text {
+  color: white;
+}
+
+.up-case {
+  text-transform: uppercase
 }
 
 /* Media Queries */

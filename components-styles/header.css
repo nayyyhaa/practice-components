@@ -15,7 +15,6 @@
 
 .header-nav {
   background: var(--primary-color-dark);
-  color: white;
   justify-content: space-between;
   padding: 0.5rem;
 }
