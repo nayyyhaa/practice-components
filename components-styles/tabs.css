@@ -28,7 +28,10 @@
 }
 
 .hz-icon-tab li {
-    display: flex;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .tab-menu .active {
