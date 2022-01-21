@@ -55,9 +55,8 @@
 }
 
 .card-btn.icon-btns {
-  width: 3rem;
+  width: 4rem;
   color: rgb(99, 99, 99);
-  border-radius: 50%;
 }
 
 .card-btn:hover {

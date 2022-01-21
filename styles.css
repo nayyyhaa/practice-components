@@ -63,6 +63,11 @@ button {
   font-size: 1.5rem;
 }
 
+.rd-bdr {
+    padding: 1rem;
+    border-radius: 50%;
+}
+
 .container {
   min-height: 40vh;
   display: flex;
@@ -100,7 +105,7 @@ button {
 
 .grid-resp-col {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(50rem, 1fr));
 }
 
 .box-shd {
@@ -139,13 +144,13 @@ button {
 
 /* Media Queries */
 
-@media screen and (max-width: 625px) {
+@media screen and (max-width: 600px) {
   .container {
     margin: 1rem 0.25rem;
   }
 
   .grid-resp-col {
-    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   }
 }
 
