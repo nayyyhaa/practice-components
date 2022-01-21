@@ -30,7 +30,7 @@
 .hz-icon-tab li {
   display: flex;
   flex-wrap: nowrap;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
 }
 
