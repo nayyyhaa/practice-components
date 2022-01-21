@@ -38,6 +38,11 @@
   bottom: 75%;
 }
 
+.icon-badge .badge {
+  bottom: 30%;
+  left: 60%;
+}
+
 .icon-badge {
   background: initial;
 }
