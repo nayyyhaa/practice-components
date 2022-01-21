@@ -14,12 +14,12 @@
 }
 
 .snackbar-btn:hover {
-  background-color: var(--dark-grey)
+  background-color: var(--dark-grey);
 }
 
 .rd-bdr {
-    padding: 1rem;
-    border-radius: 50%;
+  padding: 1rem;
+  border-radius: 50%;
 }
 
 /* Media Queries */
@@ -27,10 +27,6 @@
 @media screen and (max-width: 450px) {
   .snackbar-wrapper {
     width: 20rem;
-  }
-
-  .rd-bdr {
-    padding: 0.5rem;
   }
 }
 
