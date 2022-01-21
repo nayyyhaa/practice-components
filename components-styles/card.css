@@ -76,4 +76,8 @@
   .card-header-text {
     padding: 0.5rem;
   }
+
+  .card-actions {
+    padding: 0;
+  }
 }

@@ -27,6 +27,10 @@
   margin: 0 0.5rem;
 }
 
+.hz-icon-tab li {
+    display: flex;
+}
+
 .tab-menu .active {
   color: white;
   padding-bottom: 0.5rem;
@@ -35,8 +39,12 @@
 
 /* media queries */
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 510px) {
   .tabs-demo {
-    width: 90%;
+    width: 95%;
+  }
+
+  .tab-menu li {
+    padding: 0.25rem;
   }
 }
