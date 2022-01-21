@@ -25,7 +25,7 @@
         <div class="demo card-demos row-flex">
           <!-- Horizontal card -->
           <div class="card sm-card box-shd">
-            <div class="card-header row-flex">
+            <div class="card-header row-flex full-wd">
               <img
                 class="card-img"
                 src="https://images.pexels.com/photos/1606655/pexels-photo-1606655.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800"
@@ -36,7 +36,7 @@
                 <sub>GONNA MAKE YOU SMILE :)</sub>
               </div>
             </div>
-            <div class="card-actions row-flex">
+            <div class="card-actions row-flex full-wd">
               <div class="card-btns">
                 <button class="card-btn card-btn-text">READ</button>
                 <button class="card-btn card-btn-text">BOOKMARK</button>
@@ -51,7 +51,7 @@
           <!-- Vertical card -->
           <div class="card lg-card box-shd">
             <img
-              class="card-img"
+              class="card-img full-wd"
               src="https://images.pexels.com/photos/1606655/pexels-photo-1606655.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800"
               alt="minion"
             />
@@ -59,7 +59,7 @@
               <h1 class="card-title h3">Minion Boi</h1>
               <sub>GONNA MAKE YOU SMILE :)</sub>
             </div>
-            <div class="card-actions row-flex">
+            <div class="card-actions row-flex full-wd">
               <div class="card-btns">
                 <button class="card-btn card-btn-text">READ</button>
                 <button class="card-btn card-btn-text">BOOKMARK</button>
@@ -77,10 +77,10 @@
       <!-- Chips Demo -->
       <div class="container col-flex">
         <h1 class="container-title h3">Chips Components</h1>
-        <div class="demo chips-demos row-flex">
+        <div class="demo chips-demos row-flex full-wd">
           <!-- Horizontal chips -->
           <div class="chip-wrapper input-chip-wrapper row-flex box-shd">
-            <label for="chip-input" class="chip-title">Chip Title</label>
+            <label for="chip-input" class="chip-title full-wd">Chip Title</label>
             <input type="text" id="chip-input" placeholder="type something" />
           </div>
         </div>
@@ -89,14 +89,14 @@
       <!-- Drawer Demo -->
       <div class="container col-flex">
         <h1 class="container-title h3">Drawer Componenets</h1>
-        <div class="demo drawer-demos row-flex">
+        <div class="drawer-demos row-flex full-wd">
           <!-- Column drawer -->
-          <div class="drawer-wrapper col-flex box-shd">
+          <div class="drawer-wrapper sm-container col-flex box-shd">
             <div class="drawer-header">
               <h1 class="drawer-title h3">Minion Boi</h1>
               <sub>gonna make you smile :)</sub>
             </div>
-            <ul class="drawer-content">
+            <ul class="drawer-content full-wd">
               <li class="active"><i class="fa fa-inbox"></i><span>Inbox</span></li>
               <li><i class="fa fa-star"></i><span>Star</span></li>
               <li><i class="fas fa-paper-plane"></i><span>Send Mail</span></li>
@@ -109,10 +109,11 @@
       <!-- Header Demo -->
       <div class="container col-flex">
         <h1 class="container-title h3">Header Components</h1>
-        <div class="demo header-demos row-flex">
-          <!-- Normal Header -->
+        <div class="header-demos row-flex full-wd">
+          <!-- Normal Header Demo-->
           <div class="header-demo">
             <h2>Fixed Header</h2>
+            <!-- Normal Header starts here-->
             <div class="header-wrapper box-shd">
               <nav class="header-nav row-flex wt-text">
                 <div class="header-title h3"><i class="fas fa-bars"></i><span>Minion Boi</span></div>
@@ -146,11 +147,13 @@
                 </p>
               </div>
             </div>
+            <!-- Normal Header ends here-->
           </div>
 
           <!-- Sticky Header -->
           <div class="header-demo">
             <h2>Sticky Header</h2>
+            <!-- Sticky Header starts here-->
             <div class="header-wrapper box-shd">
               <nav class="header-nav sticky-header row-flex wt-text">
                 <div class="header-title h3"><i class="fas fa-bars"></i><span>Minion Boi</span></div>
@@ -184,6 +187,7 @@
                 </p>
               </div>
             </div>
+            <!-- Sticky Header ends here-->
           </div>
         </div>
       </div>
@@ -191,38 +195,95 @@
       <!-- Badge Demo -->
       <div class="container col-flex">
         <h1 class="container-title h3">Badge Components</h1>
-        <div class="demo badge-demos grid-resp-col">
+        <div class="badge-demos grid-resp-col full-wd">
+          <!-- Badge w/ text starts here-->
           <p>
             <span class="badge-wrapper">Text with a badge<span class="badge wt-text grid-ctr-1">9</span></span>
           </p>
+          <!-- Badge w/ text ends here-->
+
+          <!-- Large Badge w/ text starts here-->
           <p>
-            <span class="badge-wrapper">Text with large badge<span class="badge wt-text lg-txt-badge grid-ctr-1">9</span></span>
+            <span class="badge-wrapper"
+              >Text with large badge<span class="badge wt-text lg-txt-badge grid-ctr-1">999+</span></span
+            >
           </p>
+          <!-- Large Badge w/ text ends here-->
+
+          <!-- Badge w/ button starts here-->
           <p>
             Button with a badge on the left
             <button class="badge-wrapper btn-badge wt-text">
               Action
-              <span class="badge lft-badge wt-text grid-ctr-1">9</span>
+              <span class="badge lft-badge wt-text grid-ctr-1">99+</span>
             </button>
           </p>
+          <!-- Badge w/ button ends here-->
+
+          <!-- Badge w/ icon starts here-->
           <p>
             Icon with a badge
             <button class="badge-wrapper icon-badge">
               <i class="fas fa-envelope-open"></i>
-              <span class="badge wt-text grid-ctr-1">9</span>
+              <span class="badge wt-text grid-ctr-1">19+</span>
             </button>
           </p>
+          <!-- Badge w/ icon ends here-->
         </div>
       </div>
 
       <!-- Snackbar Demo -->
       <div class="container col-flex">
         <h1 class="container-title h3">Snack Bar Components</h1>
-        <div class="demo snackbar-demos grid-ctr-1">
+        <div class="snackbar-demos grid-ctr-1 full-wd">
+          <!-- Snackbar starts here-->
           <div class="snackbar-wrapper box-shd row-flex">
             <span class="wt-text">This message is awesome!</span>
             <button class="snackbar-btn colored-txt up-case h5">YES</button>
             <button class="snackbar-btn wt-text rd-bdr"><i class="fas fa-times"></i></button>
+          </div>
+          <!-- Snackbar ends here-->
+        </div>
+      </div>
+
+      <!-- Dialog Demo -->
+      <div class="container col-flex">
+        <h1 class="container-title h3">Dialog Componenets</h1>
+        <div class="dialog-demos row-flex full-wd">
+          <!-- Stacked drawer demo-->
+          <div class="dialog-demo">
+            <h2>Stacked Dialog</h2>
+
+            <!-- Stacked drawer starts here-->
+            <div class="dialog-wrapper sm-container col-flex box-shd">
+              <div class="dialog-header">
+                <h1 class="dialog-title h3">Dialog Header</h1>
+                <sub>Dialog body text</sub>
+              </div>
+              <ul class="dialog-btns">
+                <li class="active">Action 1</li>
+                <li>Action 2</li>
+              </ul>
+            </div>
+            <!-- Stacked drawer ends here-->
+          </div>
+
+          <!-- Side by side drawer -->
+          <div class="dialog-demo">
+            <h2>Side-by-side Dialog</h2>
+
+            <!-- side-by-side drawer starts here-->
+            <div class="dialog-wrapper sm-container col-flex box-shd">
+              <div class="dialog-header">
+                <h1 class="dialog-title h3">Dialog Header</h1>
+                <sub>Dialog body text</sub>
+              </div>
+              <ul class="dialog-btns row-flex">
+                <li class="active">Action 1</li>
+                <li>Action 2</li>
+              </ul>
+            </div>
+            <!-- side-by-side drawer ends here-->
           </div>
         </div>
       </div>

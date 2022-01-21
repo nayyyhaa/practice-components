@@ -1,18 +1,9 @@
 .drawer-wrapper {
-  background: white;
-  width: 25rem;
   align-items: flex-start;
-  padding: 1rem;
-  margin: 1rem;
-  border-radius: 1rem;
 }
 
 .drawer-header {
-    padding: 1.25rem 0;
-}
-
-.drawer-content {
-    width: 100%;
+  padding: 1.25rem 0;
 }
 
 .drawer-content li {
@@ -31,6 +22,6 @@
 }
 
 .active {
-    color: var(--primary-color-dark);
-    background-color: var(--light-grey);
+  color: var(--primary-color-dark);
+  background-color: var(--light-grey);
 }

@@ -26,9 +26,11 @@ body {
   overflow-x: hidden;
 }
 
-sub, label {
+sub,
+label {
   font-size: 1.3rem;
-  color: var(--xdark-grey)
+  font-weight: 500;
+  color: var(--dark-grey);
 }
 
 svg {
@@ -44,7 +46,8 @@ h1 {
   font-size: 2rem;
 }
 
-h2,input {
+h2,
+input {
   font-size: 1.5rem;
 }
 
@@ -53,7 +56,7 @@ p {
   letter-spacing: 0.0125em;
 }
 
-span {
+span, li {
   font-size: 1.5rem;
 }
 
@@ -64,8 +67,8 @@ button {
 }
 
 .rd-bdr {
-    padding: 1rem;
-    border-radius: 50%;
+  padding: 1rem;
+  border-radius: 50%;
 }
 
 .container {
@@ -81,6 +84,15 @@ button {
 .container-title {
   margin: 1vh 0;
   min-height: 8vh;
+}
+
+.sm-container {
+  background: white;
+  width: 25rem;
+  align-items: flex-start;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 0.5rem;
 }
 
 .col-flex {
@@ -112,7 +124,7 @@ button {
   box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 14%), 0 1px 18px 0 rgb(0 0 0 / 12%);
 }
 
-.demo {
+.full-wd {
   width: 100%;
 }
 
@@ -139,7 +151,7 @@ button {
 }
 
 .up-case {
-  text-transform: uppercase
+  text-transform: uppercase;
 }
 
 /* Media Queries */

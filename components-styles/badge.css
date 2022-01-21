@@ -5,17 +5,18 @@
 
 .badge {
   background: var(--crimson-red);
-  height: 2.5rem;
-  width: 2.5rem;
+  height: 3rem;
+  width: 3rem;
   border-radius: 50%;
   position: absolute;
   bottom: 45%;
   left: 95%;
+  font-size: smaller;
 }
 
 .lg-txt-badge {
-  height: 3.5rem;
-  width: 3.5rem;
+  height: 4rem;
+  width: 4rem;
   background: var(--blue);
 }
 

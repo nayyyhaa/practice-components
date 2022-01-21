@@ -1,0 +1,30 @@
+.dialog-demo {
+  margin: 2rem;
+}
+
+.dialog-wrapper {
+  width: 30rem;
+  align-items: flex-start;
+  padding: 2rem;
+  margin-left: 0;
+}
+
+.dialog-header {
+  padding: 1.25rem 0;
+}
+
+.dialog-btns {
+  align-self: flex-end;
+}
+
+.dialog-btns li {
+  padding: 1rem 1.5rem;
+  margin: 0.5rem 0;
+  cursor: pointer;
+  border-radius: 0.4rem;
+  font-weight: 500;
+}
+
+.dialog-btns li:hover {
+  background-color: var(--primary-color-light);
+}

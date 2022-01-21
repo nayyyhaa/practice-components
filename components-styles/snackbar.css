@@ -24,7 +24,7 @@
 
 /* Media Queries */
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .snackbar-wrapper {
     width: 20rem;
   }
