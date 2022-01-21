@@ -1,0 +1,42 @@
+.tabs-demo {
+  margin: 2rem 0;
+  width: 70%;
+}
+
+.tab-menu {
+  width: 100%;
+  align-items: initial;
+  background: var(--primary-color-dark);
+  color: white;
+}
+
+.tab-menu li {
+  flex: 1;
+  cursor: pointer;
+  padding: 1rem;
+  text-align: center;
+}
+
+.tab-menu li:hover {
+  color: white;
+  background-color: var(--light-grey);
+}
+
+.tab-menu li svg,
+.tab-menu li i {
+  margin: 0 0.5rem;
+}
+
+.tab-menu .active {
+  color: white;
+  padding-bottom: 0.5rem;
+  border-bottom: 0.5rem solid var(--primary-color-xdark);
+}
+
+/* media queries */
+
+@media screen and (max-width: 400px) {
+  .tabs-demo {
+    width: 90%;
+  }
+}

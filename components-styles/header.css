@@ -33,6 +33,10 @@
   padding: 1.5rem;
 }
 
+.header-menu .active {
+    color: white;
+}
+
 /* sticky header */
 .sticky-header {
   position: sticky;

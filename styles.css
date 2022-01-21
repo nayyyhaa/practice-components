@@ -1,6 +1,7 @@
 :root {
   --primary-color: #cecbfd;
   --primary-color-dark: rgb(76 63 181);
+  --primary-color-xdark: rgb(21, 17, 49);
   --sat-primary-color: #bb86fc;
   --primary-color-light: #f1f0ff;
   --primary-color-transparent: rgba(205, 183, 255, 0.315);

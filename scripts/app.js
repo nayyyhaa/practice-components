@@ -28,9 +28,10 @@ chipInput.addEventListener("keyup", (e) => {
 
 addNewChip("chip 1");
 
-// DRAWER COMPONENT & HEADER COMPONENT
+// DRAWER COMPONENT & HEADER COMPONENT & TABS COMPONENT
 const drawerElements = document.querySelectorAll(".drawer-content li");
 const headerElements = document.querySelectorAll(".header-menu li");
+const tabsElements = document.querySelectorAll(".tab-menu li");
 
 //functions
 function deactivateElement(hoverableElements) {
@@ -51,4 +52,8 @@ drawerElements.forEach((element) => {
 
 headerElements.forEach((element) => {
   toggleElement(element, headerElements);
+});
+
+tabsElements.forEach((element) => {
+  toggleElement(element, tabsElements);
 });
