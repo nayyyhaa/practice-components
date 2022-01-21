@@ -17,22 +17,22 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-size: 62.5%;
 }
 
 body {
   background: var(--primary-color-light);
   font-family: poppins;
-  font-size: 62.5%;
   overflow-x: hidden;
 }
 
-sub {
-  font-size: 0.75rem;
-  color: rgb(88, 85, 85);
+sub, label {
+  font-size: 1.3rem;
+  color: var(--xdark-grey)
 }
 
 svg {
-  font-size: 1rem !important;
+  font-size: 1.75rem !important;
   cursor: pointer;
 }
 
@@ -40,18 +40,42 @@ ul {
   list-style: none;
 }
 
+h1 {
+  font-size: 2rem;
+}
+
+h2,input {
+  font-size: 1.5rem;
+}
+
 p {
-  font-size: 1rem;
+  font-size: 1.5rem;
   letter-spacing: 0.0125em;
 }
 
 span {
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 button {
   cursor: pointer;
   border: none;
+  font-size: 1.5rem;
+}
+
+.container {
+  min-height: 40vh;
+  display: flex;
+  flex-wrap: wrap;
+  background: var(--primary-color);
+  border-radius: 0 2rem;
+  margin: 5rem;
+  padding: 2rem 0.25rem;
+}
+
+.container-title {
+  margin: 1vh 0;
+  min-height: 8vh;
 }
 
 .col-flex {
@@ -83,21 +107,6 @@ button {
   box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 14%), 0 1px 18px 0 rgb(0 0 0 / 12%);
 }
 
-.container {
-  min-height: 40vh;
-  display: flex;
-  flex-wrap: wrap;
-  background: var(--primary-color);
-  border-radius: 0 2rem;
-  margin: 5rem;
-  padding: 2rem 0.25rem;
-}
-
-.container-title {
-  margin: 1vh 0;
-  min-height: 8vh;
-}
-
 .demo {
   width: 100%;
 }
@@ -105,13 +114,13 @@ button {
 /* texts */
 
 .h3 {
-  font-size: 1.25rem;
+  font-size: 2rem;
   font-weight: 500;
   letter-spacing: 0.0125em;
 }
 
 .h5 {
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: 500;
   letter-spacing: 0.0125em;
 }
@@ -137,5 +146,11 @@ button {
 
   .grid-resp-col {
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  }
+}
+
+@media screen and (max-width: 400px) {
+  * {
+    font-size: 55%;
   }
 }

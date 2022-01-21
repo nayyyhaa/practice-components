@@ -4,24 +4,24 @@
 
 .header-wrapper {
   background: white;
-  width: 30rem;
-  height: 10rem;
+  width: 45rem;
+  height: 15rem;
   overflow-x: scroll;
 }
 
 .header-title span {
-  padding-left: 0.5rem;
+  padding-left: 1rem;
 }
 
 .header-nav {
   background: var(--primary-color-dark);
   justify-content: space-between;
-  padding: 0.5rem;
+  padding: 1rem;
 }
 
 .header-nav li {
-  width: 2rem;
-  height: 2rem;
+  width: 3rem;
+  height: 3rem;
   border-radius: 50%;
 }
 
@@ -30,7 +30,7 @@
 }
 
 .text-content {
-  padding: 1rem;
+  padding: 1.5rem;
 }
 
 /* sticky header */
@@ -42,22 +42,12 @@
 /* media queries */
 @media screen and (max-width: 560px) {
   .header-wrapper {
+    width: 32rem;
+  }
+}
+
+@media screen and (max-width: 290px) {
+  .header-wrapper {
     width: 20rem;
-  }
-}
-
-@media screen and (max-width: 370px) {
-  .header-wrapper {
-    width: 15rem;
-  }
-
-  .header-nav {
-    justify-content: center;
-  }
-}
-
-@media screen and (max-width: 266px) {
-  .header-wrapper {
-    width: 8rem;
   }
 }

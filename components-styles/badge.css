@@ -5,8 +5,8 @@
 
 .badge {
   background: var(--crimson-red);
-  height: 1.5rem;
-  width: 1.5rem;
+  height: 2.5rem;
+  width: 2.5rem;
   border-radius: 50%;
   position: absolute;
   bottom: 45%;
@@ -14,8 +14,8 @@
 }
 
 .lg-txt-badge {
-  height: 2rem;
-  width: 2rem;
+  height: 3.5rem;
+  width: 3.5rem;
   background: var(--blue);
 }
 
@@ -29,8 +29,8 @@
 
 .btn-badge {
   background: var(--primary-color-dark);
-  padding: 0.25rem 0.5rem;
-  border: 2rem;
+  padding: 1rem 1.5rem;
+  border-radius: 1rem;
 }
 
 .btn-badge .badge {
