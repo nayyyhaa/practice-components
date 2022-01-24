@@ -27,115 +27,14 @@ body {
   overflow-x: hidden;
 }
 
-sub,
-label {
-  font-size: 1.3rem;
-  font-weight: 500;
-  color: var(--dark-grey);
-}
-
-svg {
-  font-size: 1.75rem !important;
-  cursor: pointer;
-}
-
-ul {
-  list-style: none;
-}
-
-h1 {
-  font-size: 2rem;
-}
-
-h2,
-input {
-  font-size: 1.5rem;
-}
-
-p {
-  font-size: 1.5rem;
-  letter-spacing: 0.0125em;
-}
-
-span, li,a {
-  font-size: 1.5rem;
-}
-
 a {
   text-decoration: none;
   color: white;
 }
 
-button {
-  cursor: pointer;
-  border: none;
-  font-size: 1.5rem;
-}
-
-.primary-btn {
-  padding: 1rem 1.5rem;
-  border-radius: 0.2rem;
-  color: white;
-  background: var(--primary-color-dark);
-  transition: all 0.1s ease-in;
-}
-
-.primary-btn:hover {
-  background: var(--primary-color-xdark);
-}
-
 .rd-bdr {
   padding: 1rem;
   border-radius: 50%;
-}
-
-.container {
-  min-height: 40vh;
-  display: flex;
-  flex-wrap: wrap;
-  background: var(--primary-color);
-  border-radius: 0 2rem;
-  margin: 5rem;
-  padding: 2rem 0.25rem;
-}
-
-.container-title {
-  margin: 1vh 0;
-  min-height: 8vh;
-}
-
-.sm-container {
-  background: white;
-  width: 25rem;
-  align-items: flex-start;
-  padding: 1rem;
-  margin: 1rem;
-  border-radius: 0.5rem;
-}
-
-.col-flex {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.row-flex {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.grid-ctr-1 {
-  display: grid;
-  place-items: center;
-}
-
-.grid-resp-col {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(50rem, 1fr));
 }
 
 .box-shd {
@@ -146,45 +45,9 @@ button {
   width: 100%;
 }
 
-/* texts */
-
-.h3 {
-  font-size: 2rem;
-  font-weight: 500;
-  letter-spacing: 0.0125em;
-}
-
-.h5 {
-  font-size: 1.5rem;
-  font-weight: 500;
-  letter-spacing: 0.0125em;
-}
-
-.colored-txt {
-  color: var(--sat-primary-color);
-}
-
-.wt-text {
-  color: white;
-}
-
-.up-case {
-  text-transform: uppercase;
-}
-
 /* Media Queries */
 
-@media screen and (max-width: 600px) {
-  .container {
-    margin: 1rem 0.25rem;
-  }
-
-  .grid-resp-col {
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-  }
-}
-
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   * {
     font-size: 55%;
   }
